@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  brand_id: MyString
+  integer: MyString
+  tweet_id: MyString
+  tweet_copy: MyString
+  tweet_url: MyString
+  tweet_date: MyString
+
+two:
+  brand_id: MyString
+  integer: MyString
+  tweet_id: MyString
+  tweet_copy: MyString
+  tweet_url: MyString
+  tweet_date: MyString

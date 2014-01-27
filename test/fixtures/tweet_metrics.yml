@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tweet_id: 1
+  tweet_retweets: 1
+  tweet_favs: 1
+  tweet_replies: 1
+  tweet_total_engagements: 1
+
+two:
+  tweet_id: 1
+  tweet_retweets: 1
+  tweet_favs: 1
+  tweet_replies: 1
+  tweet_total_engagements: 1

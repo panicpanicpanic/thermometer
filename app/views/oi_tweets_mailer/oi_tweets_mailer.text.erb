@@ -1,0 +1,10 @@
+Hey Ads Team!
+
+  Here's a breakdown of tweets that are currently over-indexing as of <%= Date.today %>:
+
+  <% @brands.each do |b| %>
+    <% @tweets = b.tweets.order('tweet_score DESC').order('tweet_date DESC').limit(5) %>
+  <% @tweets.each do |t| %>
+    Handle: <%= Brand.find(b.id).twitter_handle %> | Url: <%= t.tweet_url %> | Score: <%= t.tweet_score %>
+  <% end %>i
+<% end %>
